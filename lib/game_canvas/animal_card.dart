@@ -62,7 +62,7 @@ class _MyDraggableState extends State<MyDraggable> {
         ),
         data: [animal, score[animal]],
         maxSimultaneousDrags: isDrag,
-        childWhenDragging: Center(child: Text("Being Draged", style: TextStyle(fontSize: 15, color: themeColor))),
+        childWhenDragging: Center(child: Text("Being Dragged", style: TextStyle(fontSize: 15, color: themeColor))),
         onDragStarted: () {
           widget.whoNotifier.value = widget.who;
         },
